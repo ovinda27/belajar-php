@@ -31,37 +31,37 @@ $i++;
 
 //PERULANGAN ARRAY
 //contoh1
-/* $data = array ('resti','ilik','sri');
+/* $data = array ('vinda','bima','trii');
 foreach($data as $value){
     echo $value."<br/>";
 }
 */
 
 //menampilkan 1 kolom
-/* $data = array ('resti','ilik','sri');
+/* $data = array ('vinda','bima','trii');
  echo $data[2];*/
 
  //ARRAY+PERULANGAN
  // contoh1
-//$data = array ('resti','ilik','sri'); //datanya
+//$data = array ('vinda','bima','trii'); //datanya
 /* for($i=0; $i<count($data); $i++){ //cara1
     echo $data[$i]."<br>";
 } */
 //contoh2
-/* $data = array ('resti','ilik','sri'); //datanya
+/* $data = array ('vinda','bima','trii'); //datanya
  foreach($data as $value){ //cara2
     echo $value."<br/>";
 } */
 
 //PERCABANGAN
 //contoh1
-/* if($nama="Resti"){
-    echo $nama."Orang BWI ASLI";
+/* if($nama="Vinda"){
+    echo $nama."Asli BWI";
 }else{
     echo"Bukan Namanya";
 } */
 //contoh2
- /*if($nama == "Rohma"){
+ /*if($nama == "Kirana"){
     echo $nama."Orang BWI";
 }else if ($nama=="Wati"){
     echo"Berasal dari pulau Jawa";
@@ -106,10 +106,10 @@ echo $pesan; */
         if(!empty($_POST['submit'])) {
 
             switch($_POST['nama']) {
-                case "Resti":
+                case "Ovinda":
                     $pesan = $_POST['nama']." adalah orang Banyuwangi";
                 break;
-                case "Rohmawati":
+                case "Kiranasari":
                     $pesan = $_POST['nama']." berasal dari pulau Jawa";
                 break;
                 default:
