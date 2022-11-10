@@ -20,7 +20,7 @@ while($i < $no){
 }*/
 
 // PERULANGAN DO WHILE
-/* $no=10;
+/* $no=10
 $i=0;
 do{
 $n= $i + 1;
